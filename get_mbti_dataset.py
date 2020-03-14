@@ -11,7 +11,7 @@ def get_personality(answer):
     return response.headers['Refresh'].split('/')[-1]
 
 counter = 0
-f = open("mbti-dataset.txt","w+")
+f = open("mbti-dataset.txt","a+")
 personality = []
 
 def recurse_answer(form_data, choices):
@@ -44,7 +44,12 @@ def recurse_answer(form_data, choices):
     recurse_answer(form_data, choices)
 
 if __name__ == "__main__":
-    while len(personality) != 16:
-        recurse_answer({}, [])
 
-    print(personality)
+    while len(personality) != 17:
+        try:
+            recurse_answer({}, [])
+            print(personality)
+        except:
+            pass
+
+    
