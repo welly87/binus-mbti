@@ -1,16 +1,6 @@
 import requests
 import random
 
-# def generate_form_data():
-#     form_data = {}
-
-#     for i in range(1, 61):
-#         form_data["q" + str(i)] = "q" + str(i) + "a" + "1"
-    
-#     form_data["btnSubmit"] = "Lihat+Hasilnya"
-
-#     return form_data
-
 forms = []
 
 def get_personality(answer):
@@ -45,7 +35,6 @@ def recurse_answer(form_data, choices):
 
     code = ["1", "2"]
 
-    # for c in choices:
     c = random.choice(code)
 
     choices += c
