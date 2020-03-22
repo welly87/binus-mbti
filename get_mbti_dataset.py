@@ -1,5 +1,6 @@
 import requests
 import random
+import os 
 
 forms = []
 
@@ -11,14 +12,14 @@ def get_personality(answer):
     return response.headers['Refresh'].split('/')[-1]
 
 counter = 0
-f = open("mbti-dataset.txt","a+")
+f = open("mbti-dataset" + str(os.getpid()) + ".txt","a+")
 personality = []
 
 def recurse_answer(form_data, choices):
     global forms, personality
 
     if len(choices) == 60:
-        print(str(choices))
+        # print(str(choices))
 
         form_data["btnSubmit"] = "Lihat+Hasilnya"
         
@@ -48,8 +49,9 @@ if __name__ == "__main__":
     while len(personality) != 17:
         try:
             recurse_answer({}, [])
-            print(personality)
+            # print(personality)
         except:
             pass
+    
 
     
