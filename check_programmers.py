@@ -4,7 +4,7 @@ import pandas as pd
 # conda activate binusx
 
 forms = []
-programmer = ['istp', 'istj', 'entp', 'intp', 'intj']
+
 
 def get_personality(answer):
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
@@ -22,8 +22,6 @@ if __name__ == "__main__":
 
     df.columns = ['time'] + ['c' + str(i) for i in range(1, 61)] + ['email', 'name', 'wa']
 
-    
-
     def find_personality(row):
         form_data = {}
 
@@ -37,20 +35,23 @@ if __name__ == "__main__":
         return p
 
 
+    def check_programmer(row):
+        programmer = ['istp', 'istj', 'entp', 'intp', 'intj']
+
+        return row["personality"] in programmer
+
+
     df["personality"] = df.apply(find_personality, axis=1)
 
-    # need to improve the loop into more declarative pandas
-    # for i in range(0, len(df)):
-    #     for j in range(1, 61):
-    #         form_data["q" + str(j)] = "q" + str(j) + "a" + str(df.iloc[i]['c' + str(j)])
+    df["progr"] = df.apply(check_programmer, axis=1)
 
-    #     form_data["btnSubmit"] = "Lihat+Hasilnya"
+    personality_df = df[["name", "email", "wa", "personality", "progr"]]
 
-    #     p = get_personality(form_data)
+    print(personality_df.head())
+
+    personality_df.to_csv ('30prog.csv', index = False, header=True)
+
+    personality_df[personality_df["progr"]].to_csv ('30true.csv', index = False, header=True)
 
     
 
-        # if not p in programmer and not p in dfset:
-        #     dfset.append(p)
-
-    print(df.head())
