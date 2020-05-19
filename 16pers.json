@@ -1,0 +1,305 @@
+{
+    "questions": [
+        {
+            "text": "You enjoy vibrant social events with lots of people.",
+            "answer": -3,
+            "type": "EI"
+        },
+        {
+            "text": "You often spend time exploring unrealistic yet intriguing ideas.",
+            "answer": 0,
+            "type": "NS"
+        },
+        {
+            "text": "Your travel plans are more likely to look like a rough list of ideas than a detailed itinerary.",
+            "answer": 3,
+            "type": "PJ"
+        },
+        {
+            "text": "You often think about what you should have said in a conversation long after it has taken place.",
+            "answer": -3,
+            "type": "IE"
+        },
+        {
+            "text": "If your friend is sad about something, your first instinct is to support them emotionally, not try to solve their problem.",
+            "answer": -2,
+            "type": "FT"
+        },
+        {
+            "text": "People can rarely upset you.",
+            "answer": -1,
+            "type": "TF"
+        },
+        {
+            "text": "You often rely on other people to be the ones to start a conversation and keep it going.",
+            "answer": -2,
+            "type": "IE"
+        },
+        {
+            "text": "If you have to temporarily put your plans on hold, you make sure it is your top priority to get back on track as soon as possible.",
+            "answer": -1,
+            "type": "JP"
+        },
+        {
+            "text": "You rarely worry if you made a good impression on someone you met.",
+            "answer": 1,
+            "type": "EI"
+        },
+        {
+            "text": "It would be a challenge for you to spend the whole weekend all by yourself without feeling bored.",
+            "answer": 2,
+            "type": "EI"
+        },
+        {
+            "text": "You are more of a detail-oriented than a big picture person.",
+            "answer": 3,
+            "type": "SN"
+        },
+        {
+            "text": "You are very affectionate with people you care about.",
+            "answer": -1,
+            "type": "FT"
+        },
+        {
+            "text": "You have a careful and methodical approach to life.",
+            "answer": -3,
+            "type": "IE"
+        },
+        {
+            "text": "You are still bothered by the mistakes you made a long time ago.",
+            "answer": -2,
+            "type": "FT"
+        },
+        {
+            "text": "At parties and similar events you can mostly be found farther away from the action.",
+            "answer": -1,
+            "type": "IE"
+        },
+        {
+            "text": "You often find it difficult to relate to people who let their emotions guide them.",
+            "answer": 0,
+            "type": "TF"
+        },
+        {
+            "text": "When looking for a movie to watch, you can spend ages browsing the catalog.",
+            "answer": 1,
+            "type": "IE"
+        },
+        {
+            "text": "You can stay calm under a lot of pressure.",
+            "answer": 2,
+            "type": "JP"
+        },
+        {
+            "text": "When in a group of people you do not know, you have no problem jumping right into their conversation.",
+            "answer": 3,
+            "type": "EI"
+        },
+        {
+            "text": "When you sleep, your dreams tend to be bizarre and fantastical.",
+            "answer": 2,
+            "type": "NS"
+        },
+        {
+            "text": "In your opinion, it is sometimes OK to step on others to get ahead in life.",
+            "answer": 1,
+            "type": "TF"
+        },
+        {
+            "text": "You are dedicated and focused on your goals, only rarely getting sidetracked.",
+            "answer": 0,
+            "type": "JP"
+        },
+        {
+            "text": "If you make a mistake, you tend to start doubting yourself, your abilities, or your knowledge.",
+            "answer": -1,
+            "type": "FT"
+        },
+        {
+            "text": "When at a social event, you rarely try to introduce yourself to new people and mostly talk to the ones you already know.",
+            "answer": -2,
+            "type": "IE"
+        },
+        {
+            "text": "You usually lose interest in a discussion when it gets philosophical.",
+            "answer": -3,
+            "type": "SN"
+        },
+        {
+            "text": "You would never let yourself cry in front of others.",
+            "answer": 3,
+            "type": "TF"
+        },
+        {
+            "text": "You feel more drawn to places with a bustling and busy atmosphere than to more quiet and intimate ones.",
+            "answer": -2,
+            "type": "EI"
+        },
+        {
+            "text": "You like discussing different views and theories on what the world could look like in the future.",
+            "answer": 2,
+            "type": "NS"
+        },
+        {
+            "text": "When it comes to making life-changing choices, you mostly listen to your heart rather than your head.",
+            "answer": -2,
+            "type": "FT"
+        },
+        {
+            "text": "You cannot imagine yourself dedicating your life to the study of something that you cannot see, touch, or experience.",
+            "answer": 1,
+            "type": "SN"
+        },
+        {
+            "text": "You usually prefer to get your revenge rather than forgive.",
+            "answer": -3,
+            "type": "FT"
+        },
+        {
+            "text": "You often make decisions on a whim.",
+            "answer": -2,
+            "type": "NS"
+        },
+        {
+            "text": "The time you spend by yourself often ends up being more interesting and satisfying than the time you spend with other people.",
+            "answer": -1,
+            "type": "IE"
+        },
+        {
+            "text": "You often put special effort into interpreting the real meaning or the message of a song or a movie.",
+            "answer": 0,
+            "type": "TF"
+        },
+        {
+            "text": "You always know exactly what you want.",
+            "answer": 1,
+            "type": "TF"
+        },
+        {
+            "text": "You rarely think back on the choices you made and wonder what you could have done differently.",
+            "answer": 2,
+            "type": "TF"
+        },
+        {
+            "text": "When in a public place, you usually stick to quieter and less crowded areas.",
+            "answer": 3,
+            "type": "IE"
+        },
+        {
+            "text": "You tend to focus on present realities rather than future possibilities.",
+            "answer": 2,
+            "type": "SN"
+        },
+        {
+            "text": "You often have a hard time understanding other people’s feelings.",
+            "answer": 1,
+            "type": "TF"
+        },
+        {
+            "text": "When starting to work on a project, you prefer to make as many decisions upfront as possible.",
+            "answer": 0,
+            "type": "JP"
+        },
+        {
+            "text": "When you know someone thinks highly of you, you also wonder how long it will be until they become disappointed in you.",
+            "answer": 0,
+            "type": "IE"
+        },
+        {
+            "text": "You feel comfortable just walking up to someone you find interesting and striking up a conversation.",
+            "answer": 0,
+            "type": "EI"
+        },
+        {
+            "text": "You often drift away into daydreaming about various ideas or scenarios.",
+            "answer": -3,
+            "type": "NS"
+        },
+        {
+            "text": "You look after yourself first, and others come in second.",
+            "answer": -2,
+            "type": "IE"
+        },
+        {
+            "text": "Even when you have planned a particular daily routine, you usually just end up doing what you feel like at any given moment.",
+            "answer": -1,
+            "type": "PJ"
+        },
+        {
+            "text": "Your mood can change very quickly.",
+            "answer": 0,
+            "type": "FT"
+        },
+        {
+            "text": "You often contemplate the reasons for human existence or the meaning of life.",
+            "answer": 1,
+            "type": "NS"
+        },
+        {
+            "text": "You often talk about your own feelings and emotions.",
+            "answer": 1,
+            "type": "FT"
+        },
+        {
+            "text": "You have got detailed education or career development plans stretching several years into the future.",
+            "answer": -3,
+            "type": "JP"
+        },
+        {
+            "text": "You rarely dwell on your regrets.",
+            "answer": -2,
+            "type": "TF"
+        },
+        {
+            "text": "Spending time in a dynamic atmosphere with lots of people around quickly makes you feel drained and in need of a getaway.",
+            "answer": -1,
+            "type": "IE"
+        },
+        {
+            "text": "You see yourself as more of a realist than a visionary.",
+            "answer": 0,
+            "type": "SN"
+        },
+        {
+            "text": "You find it easy to empathize with a person who has gone through something you never have.",
+            "answer": 1,
+            "type": "FT"
+        },
+        {
+            "text": "Your personal work style is closer to spontaneous bursts of energy than to organized and consistent efforts.",
+            "answer": 2,
+            "type": "PJ"
+        },
+        {
+            "text": "Your emotions control you more than you control them.",
+            "answer": -3,
+            "type": "FT"
+        },
+        {
+            "text": "After a long and exhausting week, a fun party is just what you need.",
+            "answer": -2,
+            "type": "EI"
+        },
+        {
+            "text": "You frequently find yourself wondering how technological advancement could change everyday life.",
+            "answer": -1,
+            "type": "NS"
+        },
+        {
+            "text": "You always consider how your actions might affect other people before doing something.",
+            "answer": 0,
+            "type": "FT"
+        },
+        {
+            "text": "You still honor the commitments you have made even if you have a change of heart.",
+            "answer": 3,
+            "type": "JP"
+        },
+        {
+            "text": "You rarely feel insecure.",
+            "answer": 2,
+            "type": "EI"
+        }
+    ],
+    "inviteCode": ""
+}
